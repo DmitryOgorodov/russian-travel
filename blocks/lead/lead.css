@@ -20,7 +20,7 @@
 @media (max-width: 928px) {
   .lead {
     width: 100vw;
-    height: calc(962px - (928px - 100vw)/2);
+    height: calc(962px - (928px - 100vw)/1.6);
     margin: 28px 0 0;
   }
 }

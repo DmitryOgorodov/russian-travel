@@ -12,10 +12,10 @@
 @media (max-width: 768px) {
   .lead__title {
     width: calc(720px - (768px - 100vw));
-    height: calc(200px-((768px - 100vw)/88));
-    font-size: calc(96px - ((768px - 100vw) / 8));
-    line-height: calc(96px - ((768px - 100vw) / 8));
-    margin-bottom: calc(32px - ((768px - 100vw) / 28));
+    height: calc(200px - ((768px - 100vw)/88));
+    font-size: calc(96px - ((768px - 100vw)/8));
+    line-height: calc(96px - ((768px - 100vw)/8));
+    margin-bottom: calc(32px - ((768px - 100vw)/28));
   }
 }
 

@@ -13,9 +13,9 @@
 @media (max-width: 768px) {
   .lead__subtitle {
     width: calc(640px - (768px - 100vw));
-    height: calc(72px-((768px - 100vw)/88));
-    font-size: calc(30px - ((768px - 100vw) / 32));
-    line-height: calc(36px - ((768px - 100vw) / 28));
+    height: calc(72px - ((768px - 100vw)/88));
+    font-size: calc(30px - ((768px - 100vw)/32));
+    line-height: calc(36px - ((768px - 100vw)/28));
   }
 }
 
