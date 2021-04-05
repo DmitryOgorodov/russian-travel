@@ -1,0 +1,7 @@
+.photo-grid__image {
+  width: 1184px;
+  height: 671px;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
