@@ -10,9 +10,10 @@
   }
 }
 
+/* 28=(768px-100vw)/(56px-40px) */
 @media (max-width: 768px) {
   .lead__image {
-    margin-top: calc(56px - ((768px - 100%)/28)); /* 28=(768px-100vw)/(56px-40px) */
+    margin-top: calc(56px - ((768px - 100%)/28));
   }
 }
 
