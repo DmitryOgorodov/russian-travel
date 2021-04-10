@@ -1,0 +1,12 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 456px;
+  height: 46px;
+  grid-area: website;
+  list-style-type: none;
+}
