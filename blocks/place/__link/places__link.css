@@ -9,3 +9,7 @@
   border-bottom: solid 1px;
   color: #FFFFFF;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+}
