@@ -9,6 +9,7 @@
   background: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-style: normal;
 }
 
 @media (max-width: 1024px) {
