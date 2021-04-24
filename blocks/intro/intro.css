@@ -1,9 +1,22 @@
 .intro {
   max-width: 984px;
-  height: 429px;
-  margin: 114px auto 148px;
+  margin: 92px auto;
   padding: 0;
   display: flex;
   flex-direction: column;
   color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 88px 0 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .intro {
+    margin: 64px 0 0;
+  }
+}
+
+/*margin-bottom: calc(32px - ((768px - 100vw)/28));*/

@@ -1,10 +1,32 @@
 .page {
+  box-sizing: border-box;
   max-width: 1280px;
   min-width: 320px;
-  /* выше установили ограничение по максимальной ширине */
+  padding: 28px 48px 24px;
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
   color: white;
   background: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    padding: 28px calc(48px - ((1024px - 100vw)/10.67));
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 28px calc(24px - ((768px - 100vw)/56));
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding: 16px 16px 24px;
+  }
 }

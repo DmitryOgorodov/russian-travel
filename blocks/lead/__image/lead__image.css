@@ -1,24 +1,25 @@
 .lead__image {
-  width: 100%;
-  margin: 64px 0 8px;
-  object-fit: cover;
+ width: 100%;
+ margin-top: 64px;
+ object-fit: contain;
 }
 
 @media (max-width: 1024px) {
   .lead__image {
-    margin-top: 56px;
+    margin: 56px 0 0;
+    width: 928px;
   }
 }
 
-/* 28=(768px-100vw)/(56px-40px) */
-@media (max-width: 768px) {
+@media (max-width: 928px) {
   .lead__image {
-    margin-top: calc(56px - ((768px - 100%)/28));
+    width: 100vw;
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
-    margin-top: 40px;
+    margin: 40px 0 0;
+    width: 320px;
   }
 }

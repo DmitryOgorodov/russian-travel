@@ -1,28 +1,10 @@
 .lead__caption {
   width: 158px;
   height: 14px;
+  margin: 8px 0 0;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
   align-self: flex-start;
-  margin: 0;
-}
-
-@media (max-width: 1024px) {
-  .lead__caption {
-    margin-left: calc(0px + (1024px - 100vw)/10.6);
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__caption {
-    margin-left: calc(24px - (768px - 100vw)/56);
-  }
-}
-
-@media (max-width: 320px) {
-  .lead__caption {
-    margin-left: 16px;
-  }
 }

@@ -1,6 +1,5 @@
 .lead__subtitle{
-  width: 640px;
-  height: 72px;
+  max-width: 640px;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -12,17 +11,13 @@
 
 @media (max-width: 768px) {
   .lead__subtitle {
-    width: calc(640px - (768px - 100vw));
-    height: calc(72px - ((768px - 100vw)/88));
     font-size: calc(30px - ((768px - 100vw)/32));
     line-height: calc(36px - ((768px - 100vw)/28));
   }
 }
 
-@media (max-width: 463px) {
+@media (max-width: 320px) {
   .lead__subtitle {
-    width: 288px;
-    height: 40px;
     font-size: 16px;
     line-height: 20px;
   }
