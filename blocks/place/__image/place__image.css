@@ -6,7 +6,7 @@
 
 @media (max-width: 767px) {
   .place__image {
-    width: 100vw;
+    width: calc(100vw - 15px);
     align-self: center;
   }
 }

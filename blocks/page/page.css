@@ -1,5 +1,7 @@
 .page {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   max-width: 1280px;
   min-width: 320px;
   padding: 28px 48px 24px;
@@ -12,7 +14,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   font-style: normal;
-}
+  }
 
 @media (max-width: 1024px) {
   .page {
