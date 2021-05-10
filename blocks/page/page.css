@@ -16,6 +16,7 @@
   font-style: normal;
   }
 
+
 @media (max-width: 1024px) {
   .page {
     padding: 28px calc(48px - ((1024px - 100vw)/10.67));
@@ -26,7 +27,6 @@
 @media (max-width: 767px) {
   .page {
     padding: 28px calc(24px - ((768px - 100vw)/56));
-    padding-bottom: 24px;
   }
 }
 
@@ -35,3 +35,4 @@
     padding: 16px 16px 24px;
   }
 }
+

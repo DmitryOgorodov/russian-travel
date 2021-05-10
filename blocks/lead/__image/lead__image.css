@@ -11,9 +11,9 @@
   }
 }
 
-@media (max-width: 928px) {
+@media (max-width: 948px) {
   .lead__image {
-    width: calc(100vw - 15px);
+    width: calc(100vw - 16px);
     min-width: 320px;
   }
 }
@@ -21,6 +21,5 @@
 @media (max-width: 320px) {
   .lead__image {
     margin: 40px 0 0;
-    width: 320px;
   }
 }
