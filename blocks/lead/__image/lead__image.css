@@ -14,11 +14,11 @@
 @media (max-width: 948px) {
   .lead__image {
     width: calc(100vw - 16px);
-    min-width: 320px;
+    min-width: 300px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .lead__image {
     margin: 40px 0 0;
   }
